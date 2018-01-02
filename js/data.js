@@ -9,7 +9,46 @@ var data = {
     'Messenger': '@Muelle33restaurantcevicheria',
     'Horario': '10:00 - 17:00',
     'email': 'muelle33peru@hotmail.com',
-    'Platos': ['Combinado 33', 'Arroz con Mariscos', 'Ceviche 3 Sabores', 'Ceviche Especial', 'Ceviche Mixto', 'Ceviche Muelle 33', 'Chicharron de Mariscos', 'Combo Universitario', 'Sudado de Pescado', 'Trio'],
+    'Platos': [{ 
+      'Plato': 'Combinado 33', 
+      'Precio': '35 Soles'
+    }, 
+    { 
+      'Plato': 'Arroz con Mariscos', 
+      'Precio': '22 Soles'
+    },
+    { 
+      'Plato': 'Ceviche 3 Sabores', 
+      'Precio': '22 Soles'
+    },
+    { 
+      'Plato': 'Ceviche Especial', 
+      'Precio': '28 Soles'
+    },
+    { 
+      'Plato': 'Ceviche Muelle 33', 
+      'Precio': '27 Soles'
+    },
+    { 
+      'Plato': 'Chicharron de Mariscos', 
+      'Precio': '22 Soles'
+    },
+    { 
+      'Plato': 'Combo Universitario', 
+      'Precio': '22 Soles'
+    },
+    { 
+      'Plato': 'Sudado de Pescado', 
+      'Precio': '20 Soles'
+    },
+    { 
+      'Plato': 'Trio', 
+      'Precio': '22 Soles'
+    },
+    {
+      'Plato': 'Ceviche Mixto', 
+      'Precio': '23 Soles'
+    }],
     'Página-Oficial': 'https://www.facebook.com/Muelle33restaurantcevicheria/',
     'Calificacion': 5
   }, 
@@ -23,12 +62,23 @@ var data = {
     'Messenger': '@elTiestoRestaurantCampestre',
     'Horario': '9:00 - 17:00',
     'email': 'restaurant.eltiesto@hotmail.com',
-    'Platos': ['Cecina Shilpida', 'Lomito Saltado', 'Pollo al Barro'],
+    'Platos': [{ 
+      'Plato': 'Cecina Shilpida', 
+      'Precio': '20 Soles'
+    }, 
+    { 
+      'Plato': 'Lomito Saltado', 
+      'Precio': '21 Soles'
+    },
+    {
+      'Plato': 'Pollo al Barro', 
+      'Precio': '25 Soles'
+    }],
     'Página-Oficial': 'https://www.facebook.com/ElTiestoRestaurantCampestre/',
     'Calificacion': 4
   }, 
   'EL ASADOR': {
-    'Ubicacion': {
+    'Ubicacion': { 
       'Jiron': '2 de Mayo Esquina con Manuel Seoane',
       'Ciudad': 'Cajamarca'
     },
@@ -36,7 +86,26 @@ var data = {
     'Messenger': '@elAsadorGrill',
     'Horario': '19:00 - 23:00',
     'email': 'elasador@hotmail.com',
-    'Platos': ['Arroz Chaufa con chancho al cilindro', 'Chanchito al Cilindro', 'Fetuchinis a la Huancaina con chancho al cilindro' , 'Fetuchinis al Pesto con chancho al cilindro', 'Pollo al Cilindro'],
+    'Platos': [{ 
+      'Plato': 'Arroz Chaufa con chancho al cilindro', 
+      'Precio': '20 Soles'
+    }, 
+    { 
+      'Plato': 'Chanchito al Cilindro', 
+      'Precio': '22 Soles'
+    },
+    { 
+      'Plato': 'Pollo al Cilindro', 
+      'Precio': '18 Soles'
+    },
+    { 
+      'Plato': 'Fetuchinis al Pesto con chancho al cilindro', 
+      'Precio': '22 Soles'
+    },
+    {
+      'Plato': 'Fetuchinis a la Huancaina con chancho al cilindro', 
+      'Precio': '23 Soles'
+    }],
     'Página-Oficial': 'https://www.facebook.com/ElAsadorGrill/',
     'Calificacion': 5
   }, 
@@ -49,7 +118,50 @@ var data = {
     'Messenger': '@rest.elzarco',
     'Horario': '7:00 - 23:00',
     'email': 'elzarco_2005@hotmail.com',
-    'Platos': ['Arroz con pato', 'Cecina Shilpida', 'Chicharron de pescado', 'Chupe verde', 'Cuy frito', 'Lechon a la caja china', 'Panque con manjar blanco', 'Picante de Cuy', 'Tallarin con pollo', 'Tallarines en salsa verde', 'Triple'],
+    'Platos': [{ 
+      'Plato': 'Arroz con pato', 
+      'Precio': '22 Soles'
+    }, 
+    { 
+      'Plato': 'Cecina Shilpida', 
+      'Precio': '20 Soles'
+    },
+    { 
+      'Plato': 'Chicharron de pescado', 
+      'Precio': '18 Soles'
+    },
+    { 
+      'Plato': 'Chupe verde', 
+      'Precio': '12 Soles'
+    },
+    { 
+      'Plato': 'Lechon a la caja china', 
+      'Precio': '30 Soles'
+    },
+    { 
+      'Plato': 'Panque con manjar blanco', 
+      'Precio': '10 Soles'
+    },
+    { 
+      'Plato': 'Picante de Cuy', 
+      'Precio': '25 Soles'
+    },
+    { 
+      'Plato': 'Tallarin con pollo', 
+      'Precio': '18 Soles'
+    },
+    { 
+      'Plato': 'Tallarines en salsa verde', 
+      'Precio': '18 Soles'
+    },
+    { 
+      'Plato': 'Triple', 
+      'Precio': '15 Soles'
+    },
+    {
+      'Plato': 'Cuy frito', 
+      'Precio': '23 Soles'
+    }],
     'Página-Oficial': 'https://www.facebook.com/rest.elzarco/',
     'Calificacion': 3.5
   }
