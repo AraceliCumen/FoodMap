@@ -32,6 +32,13 @@ h3{
   margin-top: 60px;
 }
 
+/* boton volver */
+.back a{
+  color:#F724AE;
+  font-size: 45px;
+  font-weight: 900;
+  text-decoration: none;
+}
 /* .logo{
   outline: 1px solid red;
 } */
