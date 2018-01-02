@@ -41,3 +41,11 @@ Crea una web-app que a través de un input pueda filtrar los restaurantes que se
 ***
 ![Vista principal](assets/img/6.jpg "Vista principal")
 ***
+
+## Desarrollado con
+
+`HTML5` `Jquery` `CSS3` `Bootstrap`
+
+## Desarrollado por
+
+Araceli Cueva

@@ -1,14 +1,24 @@
-console.log(data);
-// $(document).ready(function () {
-//   $('#search').click(function () {
-//     // Evalua el valor del input si cumple con la condicion
-//     if ($('#list-restaurant').val().toUpperCase() === 'MIRAFLORES' || $('#list-restaurant').val().toUpperCase() === 'LINCE' || $('#list-restaurant').val().toUpperCase() === 'COMAS') {
-//       // guarda el valor ingresado en localStorage.distrito
-//       localStorage.distrito = $('#list-restaurant').val();
-//       window.location.href = 'chosen.html';
-//     } else {
-//       $('#list-restaurant').val('');
-//       alert('Ingrese uno de los distritos: Miraflores, Lince o Comas');
-//     }
-//   });
-// });
+// Accediendo a la data
+// console.log(data);
+$(document).ready(function () {
+  var arrNameRest = [];
+  $.each(data, function (i, item) {
+    arrNameRest.push(i);
+  });
+
+  
+  $('#search').click(function() {
+    $.each(arrNameRest, function (i,element) {
+      console.log(arrNameRest[i]);
+      // debugger;
+      // if ($('#list-restaurant').val().toUpperCase() === arrNameRest[i]) {
+        
+      //   localStorage.restaurant = $('#list-restaurant').val();
+      //   window.location.href = 'secundaria.html';
+      // } else {
+      //   $('#list-restaurant').val('');
+      //   alert('Ingrese uno de los Restaurants: Muelle 33, EL tiesto Restobar  Campestre, El Asador, Gran Restaurant el Zarco');
+      // }
+    })
+  });
+});
