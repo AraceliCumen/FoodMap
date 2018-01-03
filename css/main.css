@@ -34,7 +34,7 @@ h3{
 
 /* boton volver */
 .back a{
-  color:#F724AE;
+  color:rgb(36, 187, 247);
   font-size: 45px;
   font-weight: 900;
   text-decoration: none;
@@ -101,5 +101,31 @@ h3{
   height: 100%;
 }
 /* FIN CLASES PARA EL CARRUSEL */
+
+/* CLASES PARA LA VISTA SECUNDARIA*/
+.container-res{
+  height: 180px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #FFDA22 ;
+  font-weight: 900;
+}
+
+.p-rest{
+  background: #0F9AEF ;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.img-1{
+  background-image: url(../assets/images/restaurant1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* FIN DE CLASES DE CLASES VISTA SECUNDARIA */
 
 

@@ -1,5 +1,6 @@
 var data = {
   'MUELLE 33': {
+    slogan: 'Especialistas en ceviches',
     img: 'assets/img/principal3.png',
     Ubicacion: {
       Jiron: 'Rafael Olascoga N° 133',
@@ -63,6 +64,7 @@ var data = {
     Calificacion: 5
   },
   'EL TIESTO RESTOBAR CAMPESTRE': {
+    slogan: 'Especialistas en carnes al barro',
     img: 'assets/img/principal2.png',
     Ubicacion: {
       Avenida: 'Hoyos Rubio - Grifo: "Las Torrecitas"',
@@ -92,6 +94,7 @@ var data = {
     'Calificacion': 4
   },
   'EL ASADOR': {
+    slogan: 'Especialistas en carnes al cilindro',
     img: 'assets/img/principal1.png',
     Ubicacion: {
       Jiron: '2 de Mayo Esquina con Manuel Seoane',
@@ -130,6 +133,7 @@ var data = {
     'Calificacion': 5
   },
   'GRAN RESTAURANT EL ZARCO': {
+    slogan: 'Especialistas en comida criolla',
     img: 'assets/img/principal4.png',
     Ubicacion: {
       Jiron: 'Del Batán N° 252',
