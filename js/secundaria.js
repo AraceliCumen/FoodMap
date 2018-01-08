@@ -1,23 +1,21 @@
 $(document).ready(function () {
+  alert('has click en la imagen para ver la información');
   $('#title-Restaurant').text(localStorage.restaurant.toUpperCase());
   var restaurantSelect = localStorage.restaurant.toUpperCase();
-  var restaurant;
+  // console.log(restaurantSelect);
+  var keysOfData = Object.keys(data);
+  // var restaurant;
 
-  function restaurantSearch(restaurant) {
-    restaurant = Object.keys(data[restaurant]);
-    $('#restaurant-slogan').prepend(restaurant.slogan);
+  for (i = 0; i < keysOfData.length; i++) {
+    if (restaurantSelect === keysOfData[i]) {
+      $('#restaurant-slogan').prepend(data[restaurantSelect].slogan);
+      // $('#select').ccs('background-image', 'url(../' + data[restaurantSelect].img + ')');
+      // console.log('url(../' + data[restaurantSelect].img + ')');
+      $('#select').addClass('img-rest');
+    }
   }
 
-  if (restaurantSelect === 'MUELLE 33') {
-    restaurantSearch('MUELLE 33');
-  }
-  if (restaurantSelect === 'EL TIESTO RESTOBAR CAMPESTRE') {
-    restaurantSearch('EL TIESTO RESTOBAR CAMPESTRE');
-  }
-  if (restaurantSelect === 'EL ASADOR') {
-    restaurantSearch('EL ASADOR');
-  }
-  if (restaurantSelect === 'GRAN RESTAURANT EL ZARCO') {
-    restaurantSearch('GRAN RESTAURANT EL ZARCO');
-  }
+  $('#foods').click(function() {
+    window.location.href = 'foods.html';
+  });
 });

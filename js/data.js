@@ -1,7 +1,7 @@
 var data = {
   'MUELLE 33': {
     slogan: 'Especialistas en ceviches',
-    img: 'assets/img/principal3.png',
+    img: 'assets/img/muellle33/muelle33-principal.png',
     Ubicacion: {
       Jiron: 'Rafael Olascoga N° 133',
       Urbanización: 'Horacio Zeballos',
@@ -65,7 +65,7 @@ var data = {
   },
   'EL TIESTO RESTOBAR CAMPESTRE': {
     slogan: 'Especialistas en carnes al barro',
-    img: 'assets/img/principal2.png',
+    img: 'assets/img/tiesto/tiestoprincipal.jpg',
     Ubicacion: {
       Avenida: 'Hoyos Rubio - Grifo: "Las Torrecitas"',
       Urbanización: 'Toribio Casanova',
@@ -95,7 +95,7 @@ var data = {
   },
   'EL ASADOR': {
     slogan: 'Especialistas en carnes al cilindro',
-    img: 'assets/img/principal1.png',
+    img: 'assets/img/elasador/elasador-principal.png',
     Ubicacion: {
       Jiron: '2 de Mayo Esquina con Manuel Seoane',
       Ciudad: 'Cajamarca'
@@ -134,7 +134,7 @@ var data = {
   },
   'GRAN RESTAURANT EL ZARCO': {
     slogan: 'Especialistas en comida criolla',
-    img: 'assets/img/principal4.png',
+    img: 'assets/img/elzarco/elzarco-principal.jpg',
     Ubicacion: {
       Jiron: 'Del Batán N° 252',
       Ciudad: 'Cajamarca'

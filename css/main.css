@@ -120,12 +120,23 @@ h3{
   padding-left: 10px;
 }
 
-.img-1{
-  background-image: url(../assets/images/restaurant1.jpg);
+.img-rest{
+  background-image: url(../assets/img/comidas.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
+.button-foods{
+  background-color: skyblue;
+  margin-top: 10px;
+  border: none;
+}
+
+.button-foods:hover{
+  background-color: rgb(79, 153, 223);
+}
+
 /* FIN DE CLASES DE CLASES VISTA SECUNDARIA */
 
 

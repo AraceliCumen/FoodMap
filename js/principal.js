@@ -10,6 +10,7 @@ $(document).ready(function() {
 
   $('#search').click(function() {
     $.each(arrNameRest, function(i, element) {
+      var value = arrNameRest[i];
       // console.log(typeof(arrNameRest[i]));
       // debugger;
       if ($('#list-restaurant').val().toUpperCase() === arrNameRest[i]) {
